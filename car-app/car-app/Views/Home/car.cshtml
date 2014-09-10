@@ -1,0 +1,59 @@
+﻿@{
+   Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+   <meta name="viewport" content="width=device-width" />
+   <title>car</title>
+   <script src="~/Scripts/jquery-1.6.4.min.js"></script>
+   <script src="~/Scripts/jquery.signalR-2.1.1.min.js"></script>
+   <!--Please provide speed trapper script reference -->
+   <script src="http://localhost:39728/signalr/hubs" type="text/javascript"></script>
+   <script src="~/Scripts/car.js"></script>
+   <style type="text/css">
+      .body {
+         margin: 20px 20% 0 20%;
+      }
+
+      .intro {
+         font-size: 24px;
+      }
+
+      #speed {
+         font-size: 36px;
+         color: green;
+      }
+
+      #bustmsg {
+         color: red;
+      }
+   </style>
+</head>
+<body class="body">
+   <div>
+      <!-- cars data -->
+      <input id="carList" type="hidden" value="@ViewBag.carList" />
+      <br />
+      <br />
+      <div class="intro">
+         Car :
+         <b>
+            <label id="car"></label>
+         </b>
+         <br />
+         <h2>
+            <label id="bustmsg"></label>
+         </h2>
+         <br />
+         Speed : <b>
+            <label id="speed">
+            </label>
+            Km/h
+         </b>
+      </div>
+   </div>
+</body>
+</html>

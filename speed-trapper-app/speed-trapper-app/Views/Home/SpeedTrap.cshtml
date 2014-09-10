@@ -1,0 +1,57 @@
+﻿@{
+   Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+   <meta name="viewport" content="width=device-width" />
+   <title>SpeedTrap</title>
+   <script src="~/Scripts/jquery-1.6.4.min.js"></script>
+   <script src="~/Scripts/jquery.signalR-2.1.1.min.js"></script>
+   <script src="~/signalr/hubs" type="text/javascript"></script>
+   <script src="~/Scripts/tracker.js"></script>
+   <style type="text/css">
+      .body {
+         margin: 20px 10% 0 10%;
+      }
+
+      .intro {
+         font-size: 12px;
+         float: left;
+         margin: 10px 15px 0 0;
+      }
+
+      .validspeed {
+         font-size: 12px;
+         color: green;
+      }
+
+      .overspeed {
+         font-size: 12px;
+         color: red;
+      }
+
+      input[type=text] {
+         width: 200px;
+      }
+
+      .seperator {
+         border: 1px solid lightgray;
+         margin: 10px 0 20px 0;
+      }
+   </style>
+</head>
+<body class="body">
+   <h3>Speed Trap</h3>
+   <b>Set Overspeed Limit</b>&nbsp&nbsp
+   <input id="speed" type="text" placeholder="Speed Limit" maxlength="3" title="Overspeed Limit" />
+   &nbsp&nbsp
+   <input id="setSpeed" type="button" value="Apply" />
+   <div class="seperator"></div>
+   <!--- car speed stats -->
+   <div id="stats">
+   </div>
+</body>
+</html>

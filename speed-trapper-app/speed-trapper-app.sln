@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "speed-trapper-app", "speed-trapper-app\speed-trapper-app.csproj", "{F2ADA430-B139-4559-ABDF-E8860C6892C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "speed-trapper-app.Tests", "speed-trapper-app.Tests\speed-trapper-app.Tests.csproj", "{977256CC-A18E-45A7-ABCC-B4474F09D4FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2ADA430-B139-4559-ABDF-E8860C6892C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2ADA430-B139-4559-ABDF-E8860C6892C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2ADA430-B139-4559-ABDF-E8860C6892C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2ADA430-B139-4559-ABDF-E8860C6892C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{977256CC-A18E-45A7-ABCC-B4474F09D4FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{977256CC-A18E-45A7-ABCC-B4474F09D4FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{977256CC-A18E-45A7-ABCC-B4474F09D4FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{977256CC-A18E-45A7-ABCC-B4474F09D4FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
