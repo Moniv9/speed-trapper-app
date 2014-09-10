@@ -8,7 +8,7 @@ namespace speed_trapper_app.Controllers
     // GET: /Home/
 
     public ActionResult Index() {
-      return View();
+      return View("speedtrap");
     }
 
 

@@ -16,6 +16,5 @@ namespace car_app
       return HttpContext.Current.Server.MapPath("~/resources/car-names.txt");
     }
 
-
   }
 }

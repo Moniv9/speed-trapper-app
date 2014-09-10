@@ -17,7 +17,7 @@
     var newCar = _carList[getRandomNumber(0, carCount + 1)];
     $('#car').text(newCar);
 
-    /* Specify your speed trap app local address */
+    /* Specify/refer your speed trap app local address */
     $.connection.hub.url = "http://localhost:39728/signalr";
     var car = $.connection.trackerHub;
 

@@ -8,6 +8,7 @@ namespace car_app.Controllers
     // GET: /Home/
 
     public ActionResult Index() {
+      Response.Redirect("/home/car", true);
       return View();
     }
 
